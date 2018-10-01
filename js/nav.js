@@ -6,11 +6,11 @@ $(document).ready(function() {
 
 		});
 	//add active class on menu
-	//$('ul li').click(function(e) {
-	//	e.preventDefault();
-	//	$('li').removeClass('active');
-	//	$(this).addClass('active');
-	//});
+	$('ul li').click(function(e) {
+		e.preventDefault();
+		$('li').removeClass('active');
+		$(this).addClass('active');
+	});
 	//垂直導覽列
 	//把所有dd標籤的內容都hide起來
     $(".dd").hide();

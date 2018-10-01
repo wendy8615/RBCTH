@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6,p{
 	margin-left: 16px;
 }
 input[type="search"]{
-	border: solid 1px#F6C90E;
+	border: solid 1px#FB5660;
 	border-radius: 5px;
 
 }
@@ -26,7 +26,7 @@ input[type="search"]:focus{
 /*按鈕button*/
 .button {
 	border-radius: 4px;
-	background-color: #F6C90E;
+	background-color: #FB5660;
 	border: none;
 	color: #FFFFFF;
 	text-align: center;
@@ -74,7 +74,7 @@ input[type="search"]:focus{
 	clear : both;
 }
 nav.menu {
-	background: #303841;
+	background: #333;
 	position: relative;
 	height: 100%;
 	font-size: 16px;
@@ -82,7 +82,7 @@ nav.menu {
 	letter-spacing: 1px;
 }
 .menu-bg{
-	background-color: #303841;
+	background-color: #333;
 }
 .menu > ul > li {
 	list-style: none;
@@ -102,13 +102,13 @@ nav.menu {
 }
 .menu > ul li a:hover {
 	
-	color: #F6C90E;
+	color: #F98E90;
 	transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-webkit-transition-duration: 0.3s;
 }
 .active{
-	background:#303841 !important;
+	background:#333 !important;
 	
 }
 .displaynone{
@@ -118,7 +118,7 @@ nav.menu {
 	display: none;
 }
 .xs-menu-cont > a {
-    background: none repeat scroll 0 0 #303841;
+    background: none repeat scroll 0 0 #333;
     border-radius: 3px;
     padding: 3px 6px;
 	display: block;
@@ -133,7 +133,7 @@ nav.menu {
 	color: #fff;
 	padding: 12px 30px;
 	border-bottom: 1px solid #ccc;
-	background: #303841;
+	background: #333;
 
 }
 .xs-menu .bdb-none{
@@ -210,7 +210,7 @@ nav.menu {
 
 .categories-list span {
     font-size: 16px;
-    color: #F6C90E;
+    color: #F0F3B0;
     text-transform: uppercase;
     text-decoration: underline;
 	font-weight: 500;
@@ -297,7 +297,7 @@ nav.menu {
 .btn-s{
 	width: 60px;
 	height: 24px;
-	background-color: #F6C90E;
+	background-color: #FB5660;
 	color: #fff;
 	border-radius: 5px;
 }
@@ -316,9 +316,9 @@ nav.menu {
 	}
 }
 .header-top{
-	background-color: #303841;
+	background-color: #333;
 	width: 100%;
-	color: #F6C90E;
+	color: #F0F3B0;
 	position: relative;
 	font-size: 14px;
 	line-height: 42px;
@@ -327,7 +327,7 @@ nav.menu {
 .header-top a{
 	height: 2em;
 	width: 100%;
-	color: #F6C90E;
+	color: #F0F3B0;
 }
 .header-icon{
 	position: absolute;
@@ -360,25 +360,21 @@ nav.menu {
 @media (max-width: 768px){
 	.home-flexslider{
 		width: 100%;
-		
+		height:300px;
 		margin-top: 10px;
 		
 	}
 	.flexslider{
-		height: 200px;
+		height: 300px;
 		width: auto;
 	}
 	.slides{
-		height: 200px;
-		width: auto;
-	}
-	.slides li{
-		height: 200px;
+		height: 300px;
 		
 	}
 	.slides img{
-		height: 200px;
-		width: 120%;
+		height: 300px;
+		width: auto;
 
 		transform: translateX(0%);	
 
@@ -387,7 +383,7 @@ nav.menu {
 		width: 100%;
 		bottom: 0;
 		top: 30px;
-		color: #F6C90E;
+		color: #222;
 		text-shadow: 0 -1px 0 rgba(0,0,0,.3);
 		font-size: 16px;
 		line-height: 16px;
@@ -395,7 +391,7 @@ nav.menu {
 	  	animation-duration: 1s;
 	  	-webkit-animation-name: textani-In;
 	  	animation-name: textani-In;
-		transform: translateX(-50%);	
+		transform: translateX(-45%);	
 		z-index: 9;
 	}
 	
@@ -422,16 +418,11 @@ nav.menu {
 	width: 100%;
 	
 }
-.slides li{
-	width: 100%;
-	height: 580px;
-
-}
 .slides img{
 	height: auto;
 	width: 100%;
 
-	transform: translate(0%,-20%);	
+	transform: translateX(0%);	
 
 }
 /*width: 100%;
@@ -441,16 +432,15 @@ nav.menu {
 	padding: 7% 35%;
 	left: 30%;
 	bottom: 0;
-	color: #C5ECBE;
+	color: #222;
 	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
 	font-size: 24px;
 	line-height: 24px;
-	margin-top: -50%;
+	margin-top: -15%;
 	-webkit-animation-duration: 1s;
   	animation-duration: 1s;
   	-webkit-animation-name: textani-In;
   	animation-name: textani-In;
-  	z-index: 100;
 }
 .flex-direction-nav{
 	display: none;
@@ -475,23 +465,23 @@ nav.menu {
 }
 .us-Applications h2{
 	font-size: 26px;
-	color: #F6C90E ;
+	color: #FB5660 ;
 	text-align: center;
 	
 	margin-bottom: 20px;
 }
 .us-Applications h2:before,.us-Applications h2:after,.introduction h2:before,.introduction h2:after{
 	content: "－";
-	color: #F6C90E ;
+	color: #FB5660 ;
 }
 /* $thumbnail */
 .thumbnail{
-	color: #303841;
+	color: #666363;
 	background-color: #fff;
 }
 .thumbnail-title{
 	font-size: 18px;
-	color: #303841;
+	color: #333;
 	text-align: center;
 }
 .thumbnail-text{
@@ -524,7 +514,7 @@ nav.menu {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
-	border: 1px solid #F6C90E;
+	border: 1px solid #FB5660;
 	margin: 0 16px;
 	background: url('../img/arrow.svg');
 	background-size: 16px;
@@ -547,7 +537,7 @@ nav.menu {
 		
 	}
 	.honeycomb-core{
-		background-color: #F6C90E; 
+		background-color: #F98E90; 
 		width: 100%;
 		height: 600px;
 
@@ -597,13 +587,13 @@ nav.menu {
 		
 }
 .honeycomb-core{
-	background-color: #F6C90E; 
+	background-color: #F98E90; 
 	width: 100%;
 	height: 600px;
 	
 }
 .honeycomb-plate{
-	background-color: #303841; 
+	background-color: #464545; 
 	width: 100%;
 	height: 600px;
 	
@@ -635,7 +625,7 @@ nav.menu {
 }
 .application-info h3{
 	font-size: 28px;
-	color: #fff;
+	color: #F0F3B0;
 	letter-spacing: 1px;
 }
 .application-info p{
@@ -681,7 +671,7 @@ nav.menu {
 }
 .introduction h2{
 	font-size: 26px;
-	color: #F6C90E ;
+	color: #FB5660 ;
 	text-align: center;
 	padding-top: 50px;
 	margin-bottom: 20px;
@@ -714,8 +704,8 @@ nav.menu {
 	overflow: hidden;
 	display: inline-block;
 	padding: 5px;
-	border: solid 2px #F6C90E;
-	background-color: #F6C90E;
+	border: solid 2px #FB5660;
+	background-color: #FB5660;
 	background-clip: content-box;
 }
 .circle-Profile i,.circle-item i{
@@ -779,7 +769,7 @@ nav.menu {
 	
 }
 .introduction-btn-info a{
-	color: #2E4750;
+	color: #fff;
 	
 	
 }
@@ -787,7 +777,7 @@ nav.menu {
 	width: 100%;
 	text-align: center;
 	margin-top: 250px;
-	color: #F6C90E;
+	color: #F0F3B0;
 	font-size: 24px;
 	letter-spacing: 2px;
 }
@@ -855,34 +845,6 @@ nav.menu {
 	padding: 10px;
 }
 .footer-Copyright i:hover{
-	color: #F6C90E;
+	color: #FB5660;
 	transition: 0.5s;
-}
-/*---------------------------------------------------------*/
-/*---左側選單navbar---*/
-/*---------------------------------------------------------*/
-.left-navbar{
-	margin-top: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #303841;
-	width: 200px;
-	height: auto;
-	border: solid 1px #000;
-
-}
-.left-navbar-menu{
-	width: 100%;
-	border: solid 1px #000;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/*---------------------------------------------------------*/
-/*---統成蜂巢簡介about-us-introduction---*/
-/*---------------------------------------------------------*/
-.about-us-introduction{
-	width: 100%;
-	height: auto;
-	background-color: #303841;
 }
